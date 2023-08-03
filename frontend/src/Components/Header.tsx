@@ -153,7 +153,7 @@ export default function Header() {
                         </form>
 
                         {!context.user._id && (
-                            <div className="h-1/2 flex items-end">
+                            <div className="mt-10 h-1/2">
                                 <button
                                     onClick={handleLogin}
                                     className="w-full h-8  bg-black rounded-md text-white font-semibold">
@@ -163,7 +163,7 @@ export default function Header() {
                         )}
 
                         {context.user._id && (
-                            <div className="h-1/2 flex items-end">
+                            <div className="mt-10 h-1/2">
                                 {!logoutConfirmation && (
                                     <button
                                         onClick={() =>

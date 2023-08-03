@@ -1,7 +1,5 @@
-// const currentlyInDevelopment = true;
-const currentlyInDevelopment = false;
-
-export const api = currentlyInDevelopment ? "http://localhost:3000/" : "https://booksreview.onrender.com/";
+// export const api = "http://localhost:3000/";
+export const api = "https://booksreview.onrender.com/";
 
 const booksRoute = "books/";
 
